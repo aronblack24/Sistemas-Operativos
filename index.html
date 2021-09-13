@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sistemas-Operativos</title>
+	<meta name="keywords"content = "sistemas operativos, que es un sistema operativo, conceptos de sistemas operativos, estructura y tipos de sistemas operativos, S.O, que es S.O">
+	<meta charset="utf-8">
+	<meta name="copyright" conten="AngelElectronic.inc">
+	<meta name="description"content="Que es un sistema operativo, como se maneja un sistema operativo, que es S.O y conceptos de sistema operativo es lo que veremos en estos momentos. Conceptos que necesitas saber para poder aprender mas sobre la Arquitectura de sistemas operativos en general">
+	<meta name="author"conten ="Aaron Mendoza">
+</head>
+<body>
+    <h1>Descripcion y Conceptos De ARQUITECTURA DE SISTEMAS OPERATIVOS</h1>
+    <h2>CONCEPTOS DE S.O</h2>
+    <h3>-DEFINICION DE SISTEMAS OPERATIVOS</h3>
+    <p>
+    	Un <b>sistema operativo</b> es un conjunto de <b>programas</b> que permite manejar, disco, medios de almacenamiento de informacion y diferentes perifericos o recursos de nuestra computadora.
+    </p>
+    <h3>-CARACTERISTICAS DEL SISTEMA OPERATIVO</h3>
+    <p1>
+    	<li>Manejador de recursos</li>
+    	<li>Programa de control</li>
+    	<li>Karnel </li>
+    	<li>Usuario </li>
+    </p1>
+   <h3>-FUNCIONES DE UN SISTEMA OPERATIVO</h3>
+   <p>
+   	<div>
+   	  -Gestionar la memoria de acceso aleatorio y ejecutar las aplicaciones designando los recursos necesarios
+   	</div>
+   	<div>
+   	  -Administrar la CPU gracias a un algoritmo de programacion
+   	</div>
+   	<div>
+   	  -Administrar la informacion para el buen funcionamiento de la PC
+   	</div>
+   	 	<div>
+   	  -Dirigir las autorizaciones de uso para usuarios
+   	</div>
+   		<div>
+   	  -Administrar archivos
+   	</div>
+   </p>
+   <h3>-ESTRUCTURA DE S.O</h3>
+   <p>
+   	<div>
+   		-Nucleo
+   	</div>
+   	 	<div>
+   		-Gestion de la memoria
+   	</div>
+   	 	<div>
+   		/Control/Salida
+   	</div>
+   	 	<div>
+   		-Gestion de dispositivos de almacenamiento masivo
+   	</div>;
+   	 	<div>
+   		-Asignacion de los recursos y planificacion
+   	</div>
+   	 	<div>
+   		-Proteccion
+   	</div>
+   	 	<div>
+   		-Interfaz de usuario
+   	</div>
+   </p>
+   <h3>-OBJETIVOS</h3>
+   <p>
+   	Abstraer al usuario de la complegidad del Hadware: el sistema operativo hace que el ordenador sea mas facil de utilizar.
+    <br>
+     Capacidad de adaptacion: un sistema operativo debe ser contruido de manera que pueda evolucionar a la vez que surgen actualizaciones de haedware y software.
+     <br>
+     Permitir a los usuarios compartir recursos y datos: ete aspecto estaa muy relacionado con el anterior y daria al sistema operativo el papel de gestor de los recursos de una red.
+   </p>
+   <br><br>
+   <h3>-WINDOWS</h3>
+   <p1>
+   	 <li>INTERFAZ GRAFICO </li>
+   	 <li>METAFORA DE ESCRITORIO</li>
+   	 <li>MENUS Y BOTONES </li>
+   	 <li>TECLADO Y RATON </li>
+   	 <li>S.O USUARIO </li>
+   	 <li>S.O SERVIDORES </li>
+   	</p1>
+   	<br><br>
+   	<img src="imagenes/windows.png" width="300">
+   	  <h3>-LINUX</h3>
+   	  <li>Desarrollado por Linus Torvald</li>
+   	   <li>Funciona sobre plataformas Intel o Motorola</li>
+   </p1>
+    <br><br>
+   <img src="imagenes/linux.png" width="300">
+    <br><br>
+    <h2>ESTRUCTURA Y TIPOS DE S.O</h2>
+    <h3>-ESTRUCTURA JERARQUICA</h3>
+    <p>
+    	A medida que fueron creciendo las necesidades de los usuarios y se perfeccionaron
+los sistemas, se hizo necesaria una mayor organización del software, del sistema
+operativo, donde una parte del sistema contenía subpartes y esto organizado en
+forma de niveles.
+Se dividió el sistema operativo en pequeñas partes, de tal forma que cada una de
+ellas estuviera perfectamente definida y con un claro interface con el resto de
+elementos.
+Se constituyó una estructura jerárquica o de niveles en los sistemas operativos, el
+primero de los cuales fue denominado THE (Technische Hogeschool, Eindhoven),
+de Dijkstra, que se utilizó con fines didácticos. Se puede pensar también en estos
+sistemas como si fueran `multicapa’. Multics y Unix están en esa categoría.
+    </p>
+    <h3>-MAQUINA VIRTUAL</h3>
+    <p> 
+    	Se trata de un tipo de sistemas operativos que presentan una interface a cada
+proceso, mostrando una máquina que parece idéntica a la máquina real subyacente.
+Estos sistemas operativos separan dos conceptos que suelen estar unidos en el
+resto de sistemas: la multiprogramación y la máquina extendida. El objetivo de los
+sistemas operativos de máquina virtual es el de integrar distintos sistemas
+operativos dando la sensación de ser varias máquinas diferentes.
+  <br><br>
+  <img src="imagenes/maquina virtual.jpg" width="300">
+   </p>
+   <h3>-CLIENTE-SERVIDOR(MICROKARNEL).</h3>
+   <p>
+   	El <i>núcleo</i> tiene como misión establecer la comunicación entre los clientes y los
+servidores. Los procesos pueden ser tanto servidores como clientes. Por ejemplo,
+un programa de aplicación normal es un cliente que llama al servidor
+correspondiente para acceder a un archivo o realizar una operación de
+entrada/salida sobre un dispositivo concreto.
+   </p>
+ <h2>SISTEMAS OPERATIVOS POR SERVICIOS</h2>
+  <h3>-SISTEMAS OPERATIVOS MONOUSUARIO</h3>
+  <p>
+  	Los sistemas operativos monousuario son aquellos que soportan a un usuario a la
+vez, no importando la cantidad de procesadores o procesos que se estén
+realizando. Las computadoras personales se han clasificado en esta sección.
+  </p>
+  <h3>-SISTEMAS OPERATIVOS MULTIUSUARIO</h3>
+   <p>
+   Los sistemas multiusuario son los que soportan varios usuarios a la vez, estos tipos
+de sistemas generalmente se utilizan en máquinas que están conectadas en red.	
+   </p>
+    <h3>-SISTEMAS OPERATIVOS MONOTAREA</h3>
+    <p>
+    	Los sistemas monotarea son aquellos que solo permiten realizar una sola tarea,
+estos sistemas son más primitivos porque solo permiten un proceso a la vez.
+    </p>
+     <h3>-SISTEMAS OPERATIVOS MULTITAREA</h3>
+     <p>
+     	Gracias a los avances en la miniaturización y mejora de capacidades, las
+computadoras de los noventas nos presentaron con los sistemas operativos
+multitareas, estos poseen la capacidad para administrar el uso del procesador
+asignándole las operaciones a ejecutar, la aparente capacidad para realizar
+diferentes tareas al mismo tiempo es lograda gracias tanto a la velocidad del
+procesador y componentes físicos instalados como al sistema operativo que
+administra las diferentes tareas y va asignando una operación perteneciente a cada
+catea al procesador para su realización.
+     </p>
+     <h2>-SISTEMAS OPERATIVOS DE RED</h2>
+     <p>
+     	Los sistemas operativos de red se definen como aquellos que tienen la capacidad
+de interactuar con sistemas operativos en otras computadoras por medio de un
+
+medio de transmisión con el objetivo de intercambiar información, transferir archivos,
+ejecutar comandos remotos y un sin fin de otras actividades.
+     </p>
+      <h3>-CARACTERISTICAS A CONSIDERAR DE LOS PROCESOS</h3>
+     <p>
+     	No todos los equipos de cómputo procesan el mismo tipo de trabajos, y un algoritmo de
+planificación que en un sistema funciona excelente puede dar un rendimiento pésimo en otro
+cuyos procesos tienen características diferentes
+     </p>
+     <p1>
+     	<li>Cantidad de entrada/salida.</li>
+     	<li>Cantidad de uso de CPU.</li>
+     	<li>Procesos de lote o interactivos. </li>
+     	<li>Procesos en tiempo real.</li>
+     	<li>Longevidad de los procesos.</li>
+     </p1>
+     <h3>-SISTEMAS OPERATIVOS DISTRIBUIDOS</h3>
+     <p>
+         Un sistema operativo distribuido es la unión lógica de un grupo de sistemas
+operativos sobre una colección de nodos computacionales independientes,
+conectados en red, comunicándose y físicamente separados.
+Cada nodo contiene de forma individual un subconjunto específico de los programas
+que componen el sistema operativo distribuido. Cada subconjunto es una
+combinación de dos proveedores de servicios distintos. El primero es un núcleo
+ubicuo mínimo o micro núcleo, que controla el hardware del nodo.
+<br><br>
+Si quieres un podcast de los conceptos y estructura de SO haz clic <a href="https://www.youtube.com/watch?v=pNAQd3sw13c&t=43s" target="_blank" >aqui</a>
+     </p>
+     <br><br>
+     <h2>FUNCIONAMIENTO DE UN S.O</h2>
+     <h3>-ARRANQUE DE LA COMPUTADORA</h3>
+     <p>
+        El proceso de arranque inicia desde que se pulsa el interruptor de
+encendido hasta que se carga el sistema operativo,el ordenador realiza
+una serie de tareas para verificar el buen funcionamiento del hardware
+instalado. El chequeo inicial que lleva a cabo se denomina post (power
+on self test) y consiste en una prueba para comprobar que el equipo
+físico esté bien. Este chequeo se realiza con unos programas que están
+en la bios. 
+     </p>
+     <h3>-UBICACION DEL SISTEMA OPERATIVO</h3>
+    <p> El sistema operativo se encuentra almacenado en una unidad de disco y
+tiene un programa cargador o boot del sistema operativo; está
+almacenado en una zona predefinida del disco y tiene un tamaño
+prefijado.
+El programa iniciador ROM y el sistema operativo tienen un convenio
+sobre la ubicación, dirección de arranque y tamaño del cargador del
+sistema operativo. El iniciador ROM es independiente del sistema
+operativo, siempre que éste cumpla con el convenio, por lo que la
+máquina puede soportar diversos sistema operativos.
+</p>
+ <img src="imagenes/arranque.jpg" width="300">
+<h3>-ARRANQUE DEL SISTEMA OPERATIVO</h3>
+<p>
+   El programa cargador del sistema operativo tiene como misión traer a
+memoria principal algunos de los componentes del sistema operativo.
+Una vez cargados estos componentes, se pasa a la fase de iniciación
+que incluye las siguientes operaciones:
+
+Comprobación del sistema. Se completan las pruebas del hardware
+realizadas por el iniciador ROM y se comprueba que el sistema de
+archivos tiene un estado coherente.
+Se establecen las estructuras de información propias del sistema
+operativo, tales como la tabla de procesos, las tablas de memoria y las
+de E/S.
+Se carga en memoria principal aquella parte del sistema operativo que
+ha de estar siempre en memoria, parte que se denomina sistema
+operativo residente.
+Se crea un proceso de inicio o login por cada terminal definido en el
+sistema, así como una serie de procesos auxiliares y de demonios (por
+ejemplo: el demonio de impresión o el demonio de comunicaciones). 
+</p>
+<br><br>
+ <img src="imagenes/sistema.jpg" width="300">
+<h3>-PARADA DEL SISTEMA</h3>
+<p>
+    En ocasiones es necesario apagar o reiniciar el sistema:
+mantenimiento, diagnóstico, hardware nuevo, etc.
+Las acciones que se realizan en el proceso de parada son:
+ <p1>
+    <li> Se notifica a los usuarios</li>
+    <li> Procesos en ejecución</li>
+    <li> Se paran los demonios</li>
+    <li> A los usuarios que quedan conectados se les echa del sistema</li>
+    <li> Procesos que queden en ejecución </li>
+    <li> enviar la señal de fin (KILL)</li>
+    <li> Actualizaciones de disco pendientes (integridad del SF) con sync</li>
+
+ </p1>
+</p>
+<br><br>
+ <img src="imagenes/parada.png" width="300">
+<h3>-CAIDAS DEL SISTEMA</h3>
+<p>
+   Las caídas del sistema pueden producirse debido a errores de software,
+problemas de E/S y mal funcionamiento del hardware. Si el sistema se
+cae, mostrará un mensaje de error en la consola y, a continuación,
+escribirá una copia de la memoria física correspondiente en el
+dispositivo de volcado. El sistema se reiniciará automáticamente.
+Cuando se reinicia el sistema, se ejecuta el comando savecore a fin de
+recuperar los datos del dispositivo de volcado y escribir el volcado por
+caída guardado en el directorio savecore. Los archivos de volcado por
+caída guardados brindan al proveedor de servicios de soporte
+información muy importante que permite diagnosticar el problema. 
+</p>
+<br><br>
+<img src="imagenes/fallas1.png" width="300">
+<h3>-PROBLEMAS DE ARRANQUE</h3>
+<p>
+    Al encender un equipo se llevan a cabo una serie de pruebas para
+comprobar el correcto funcionamiento del hardware. Este proceso es
+conocido cómo POST (power-on self-test), en español algo como:
+Prueba de arranque.
+Durante el POST se inicializan y comprueban todos los subconjuntos
+que componen una PC, como lo son los controladores de DMA, de
+interrupciones, de memoria, etc.
+Si se encuentra un error, automáticamente se detiene el proceso ya
+que podría ser dañino para el equipo. En ocasiones se emite un
+
+código de error que se traduce en varios beeps o pitidos por la
+bocina.
+Toda la información para este proceso se guarda en el BIOS.
+</p>
+<br><br>
+<img src="imagenes/problemas.png" width="300">
+
+</body>
+</html>
